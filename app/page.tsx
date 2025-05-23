@@ -1,5 +1,5 @@
-import ProductGrid from "@/components/ProductGrid";
-import Sidebar from "@/components/Sidebar";
+import SearchableProductGrid from "@/components/SearchableProductGrid";
+import SearchableSidebar from "@/components/SearchableSidebar";
 
 export default function Home() {
   return (
@@ -7,10 +7,10 @@ export default function Home() {
       <h1 className="text-2xl font-bold mb-6">Product Listing</h1>
       <div className="flex flex-col md:flex-row gap-6">
         <div className="w-full md:w-1/4">
-          <Sidebar />
+          <SearchableSidebar />
         </div>
         <div className="w-full md:w-3/4">
-          <ProductGrid />
+          <SearchableProductGrid />
         </div>
       </div>
     </div>
