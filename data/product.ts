@@ -7,7 +7,7 @@ export const products: Product[] = [
     description:
       "Comfortable running shoes with cushioned soles for maximum support during your runs.",
     price: 99,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/shoe.png?height=300&width=300",
     category: "Clothing",
     rating: 4.5,
     reviews: 120,
@@ -18,7 +18,7 @@ export const products: Product[] = [
     description:
       "High-quality wireless headphones with noise cancellation and long battery life.",
     price: 129,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/shoe.png?height=300&width=300",
     category: "Electronics",
     rating: 4.3,
     reviews: 85,
@@ -29,7 +29,7 @@ export const products: Product[] = [
     description:
       "Durable backpack with multiple compartments, perfect for daily use or travel.",
     price: 79,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/backpack.png?height=300&width=300",
     category: "Clothing",
     rating: 4.7,
     reviews: 63,
@@ -40,7 +40,7 @@ export const products: Product[] = [
     description:
       "Feature-rich smartwatch with health tracking, notifications, and customizable watch faces.",
     price: 249,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/smartwatch.png?height=300&width=300",
     category: "Electronics",
     rating: 4.6,
     reviews: 142,
@@ -51,7 +51,7 @@ export const products: Product[] = [
     description:
       "Stylish sunglasses with UV protection, perfect for sunny days.",
     price: 149,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/sunglasses.png?height=300&width=300",
     category: "Clothing",
     rating: 4.2,
     reviews: 37,
@@ -62,7 +62,7 @@ export const products: Product[] = [
     description:
       "High-resolution digital camera with advanced features for photography enthusiasts.",
     price: 499,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/camera.png?height=300&width=300",
     category: "Electronics",
     rating: 4.8,
     reviews: 91,
@@ -73,7 +73,7 @@ export const products: Product[] = [
     description:
       "Comfortable cotton t-shirt available in various colors and sizes.",
     price: 29,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/t-shirt.png?height=300&width=300",
     category: "Clothing",
     rating: 4.1,
     reviews: 215,
@@ -84,31 +84,9 @@ export const products: Product[] = [
     description:
       "Latest smartphone with cutting-edge features, high-performance processor, and excellent camera.",
     price: 699,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/smartphone.png?height=300&width=300",
     category: "Electronics",
     rating: 4.9,
     reviews: 328,
-  },
-  {
-    id: "9",
-    name: "Coffee Maker",
-    description:
-      "Programmable coffee maker that brews delicious coffee with customizable settings.",
-    price: 89,
-    image: "/placeholder.svg?height=300&width=300",
-    category: "Home",
-    rating: 4.4,
-    reviews: 76,
-  },
-  {
-    id: "10",
-    name: "Desk Lamp",
-    description:
-      "Adjustable desk lamp with multiple brightness levels and color temperatures.",
-    price: 49,
-    image: "/placeholder.svg?height=300&width=300",
-    category: "Home",
-    rating: 4.0,
-    reviews: 52,
   },
 ];
