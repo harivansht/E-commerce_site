@@ -36,7 +36,7 @@ export default function Header() {
               <input
                 type="text"
                 placeholder="Search for products..."
-                className="w-full py-2 px-4 pr-10 rounded-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full py-2 px-4 pr-10 rounded text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
